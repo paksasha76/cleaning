@@ -61,6 +61,8 @@
   height: 50px;
   background-color: #ffcd60;
   border-radius: 10px;
+  text-decoration: none;
+  color: black;
 }
 
 .content__btn:hover {
@@ -504,4 +506,5 @@
    background-size: cover;
    background-position: center;
    margin-left: 400px;
+   cursor: pointer;
 }
