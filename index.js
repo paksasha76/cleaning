@@ -9,11 +9,10 @@ let priceItem6 = price.querySelector(".price__item-6");
 let priceItem7 = price.querySelector(".price__item-7");
 let priceItem8 = price.querySelector(".price__item-8");
 let priceItem9 = price.querySelector(".price__item-9");
-
+let body = document.querySelector(".page");
 let formBtn = popup.querySelector(".popup__save-button");
 
 priceItem.addEventListener("click", visible);
-
 priceItem2.addEventListener("click", visible);
 priceItem3.addEventListener("click", visible);
 priceItem4.addEventListener("click", visible);
@@ -26,3 +25,9 @@ priceItem9.addEventListener("click", visible);
 function visible() {
   popup.style.visibility = "visible";
 }
+
+function hidden() {
+    popup.style.visibility = "hidden";
+}
+
+formBtn.addEventListener("click", hidden)
