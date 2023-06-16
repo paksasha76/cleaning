@@ -26,7 +26,8 @@ function visible() {
   popup.style.visibility = "visible";
 }
 
-function hidden() {
+function hidden(event) {
+    event.preventDefault()
     popup.style.visibility = "hidden";
 }
 
