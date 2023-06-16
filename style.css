@@ -1,35 +1,36 @@
 @font-face {
-   font-family: "Inter";
-   src: url(fonts/Inter-Regular.woff),
-   url(fonts/Inter-Regular.woff);
-   font-weight: 400;
- }
- 
- @font-face {
-   font-family: "Inter";
-   src: url(fonts/Inter-Medium.woff2),
-   url(fonts/Inter-Medium.woff);
-   font-weight: 500;
- }
- 
- @font-face {
-   font-family: "Inter";
-   src: url(fonts/Inter-Black.woff2),
-   url(fonts/Inter-Black.woff);
-   font-weight: 900;
- }
- 
+  font-family: "Inter";
+  src: url(fonts/Inter-Regular.woff), url(fonts/Inter-Regular.woff);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url(fonts/Inter-Medium.woff2), url(fonts/Inter-Medium.woff);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url(fonts/Inter-Black.woff2), url(fonts/Inter-Black.woff);
+  font-weight: 900;
+}
 
 .root {
   font-family: "Inter";
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
 }
 
 .page {
   padding: 0;
   margin: 0;
-  font-family: "Inter";
   margin: 0 auto;
   max-width: 1280px;
+  color: #353B42;
+
 }
 
 .header {
@@ -78,7 +79,8 @@
 
 .content__text {
   max-width: 632px;
-  font-size: 22px;
+  font-size: 16px;
+  line-height: 34px;
 }
 
 .content__btn {
@@ -525,11 +527,11 @@
 }
 
 .information__company-img {
-   background-image: url("./images/image\ 42.png");
-   width: 250px;
-   height: 300px;
-   background-size: cover;
-   background-position: center;
-   margin-left: 400px;
-   cursor: pointer;
+  background-image: url("./images/image\ 42.png");
+  width: 250px;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  margin-left: 400px;
+  cursor: pointer;
 }
