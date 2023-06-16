@@ -471,8 +471,8 @@
 .form__btn {
   background-color: #ffcd59;
   border-radius: 10px;
-  padding: 10px;
-  margin-top: 20px;
+  padding: 15px;
+  margin-top: 2px;
 }
 
 .form__btn:hover {
