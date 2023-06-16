@@ -475,6 +475,10 @@
   margin-top: 20px;
 }
 
+.form__btn:hover {
+   cursor: pointer;
+}
+
 .content__rotate {
   position: absolute;
   width: 500px;
