@@ -181,5 +181,33 @@
         </div>
       </footer>
     </div>
+
+    <div class="popup">
+      <div class="popup__content">
+        <h3 class="popup__title">Заполнить заявку</h3>
+        <form
+          class="popup__form"
+          novalidate
+        >
+          <input
+            id="title-input"
+            class="popup__input popup__input_type_title"
+            type="text"
+            name="name"
+            placeholder="Ваше имя"
+            required
+          />
+          <input
+            id="link-input"
+            class="popup__input"
+            placeholder="Ваш телефон"
+            required
+          />
+          <button class="popup__save-button" type="submit">Отправить заявку</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
   </body>
 </html>
