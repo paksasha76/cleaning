@@ -71,6 +71,8 @@
 
 .content {
   display: flex;
+  overflow: hidden;
+  min-height: 500px;
 }
 
 .content__header {
@@ -110,7 +112,7 @@
   height: 240px;
   background-size: cover;
   position: absolute;
-  bottom: 1px;
+  bottom: 200px;
   cursor: pointer;
 }
 
@@ -476,12 +478,12 @@
 
 .content__rotate {
   position: absolute;
-  width: 600px;
-  height: 600px;
+  width: 500px;
+  height: 800px;
   top: 0;
   z-index: -1;
   background-color: #4780c5;
-  right: -450px;
+  right: -400px;
   transform: rotate(-50deg);
 }
 
