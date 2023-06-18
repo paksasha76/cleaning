@@ -9,4 +9,5 @@
 
 .content__btn:hover {
   cursor: pointer;
+  background-color: coral;
 }
