@@ -1,0 +1,9 @@
+.information__company-img {
+  background-image: url("../../../images/image\ 42.png");
+  width: 250px;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  margin-left: 400px;
+  cursor: pointer;
+}

@@ -1,0 +1,12 @@
+.content__btn {
+  width: 180px;
+  height: 50px;
+  background-color: #ffcd60;
+  border-radius: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.content__btn:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,8 @@
+.header__menu-item {
+  font-size: 18px;
+}
+
+.header__menu-item:hover {
+  color: #4780c5;
+  cursor: pointer;
+}

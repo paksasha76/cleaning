@@ -1,0 +1,10 @@
+.price__header-main {
+  text-align: center;
+  margin: 0 auto 30px;
+  font-size: 38px;
+  font-style: italic;
+}
+
+.price-container:hover {
+  background-color: #4780c5;
+}

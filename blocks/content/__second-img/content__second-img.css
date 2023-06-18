@@ -1,0 +1,9 @@
+.content__second-img {
+    background-image: url("../../../images/second.png");
+    width: 250px;
+    height: 240px;
+    background-size: cover;
+    position: absolute;
+    bottom: 60px;
+    cursor: pointer;
+  }

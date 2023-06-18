@@ -1,0 +1,7 @@
+.advantages__item-fourth {
+  width: 300px;
+  height: 300px;
+  background-image: url("../../../images/item4.png");
+  background-size: cover;
+  background-position: center;
+}

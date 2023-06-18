@@ -1,0 +1,6 @@
+.content {
+  display: flex;
+  overflow: hidden;
+  min-height: 500px;
+}
+

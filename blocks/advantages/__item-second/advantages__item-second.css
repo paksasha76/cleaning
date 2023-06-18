@@ -1,0 +1,7 @@
+.advantages__item-second {
+  width: 300px;
+  height: 300px;
+  background-image: url("../../../images/item2.png");
+  background-size: cover;
+  background-position: center;
+}

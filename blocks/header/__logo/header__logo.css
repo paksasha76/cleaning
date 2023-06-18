@@ -1,0 +1,7 @@
+.header__logo {
+  width: 100px;
+  height: 100px;
+  background-image: url("../../../images/chisto-life-logo.jpg");
+  background-position: center;
+  background-size: cover;
+}

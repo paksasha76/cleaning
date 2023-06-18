@@ -1,0 +1,11 @@
+.form__btn {
+  background-color: #ffcd59;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.form__btn:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,9 @@
+.price__item-2 {
+  width: 300px;
+  height: 200px;
+  background-image: url("../../../images/image\ 24.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}

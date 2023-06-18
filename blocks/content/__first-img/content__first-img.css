@@ -1,0 +1,7 @@
+.content__first-img {
+  background-image: url("../../../images/divan.png");
+  width: 800px;
+  height: 400px;
+  background-size: cover;
+  cursor: pointer;
+}

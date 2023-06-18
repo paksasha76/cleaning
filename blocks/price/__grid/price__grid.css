@@ -1,0 +1,5 @@
+.price__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 400px);
+  margin-left: 90px;
+}

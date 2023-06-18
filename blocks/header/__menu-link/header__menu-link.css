@@ -1,0 +1,8 @@
+.header__menu-link {
+  text-decoration: none;
+  color: #000000;
+}
+
+.header__menu-link:hover {
+  color: #4780c5;
+}

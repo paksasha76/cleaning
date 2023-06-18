@@ -1,0 +1,8 @@
+.information__image {
+  width: 400px;
+  height: 600px;
+  background-image: url("../../../images/image\ 21.png");
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}

@@ -1,0 +1,8 @@
+.form__img-first {
+  background-image: url("../../../images/image\ 35.png");
+  background-size: contain;
+  background-position: center;
+  width: 800px;
+  height: 400px;
+  margin: 0 auto;
+}
