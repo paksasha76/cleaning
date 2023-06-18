@@ -13,3 +13,7 @@
   margin: 46px 0 0;
   cursor: pointer;
 }
+
+.popup__save-button:hover {
+  background-color: blue;
+}
