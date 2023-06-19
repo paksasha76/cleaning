@@ -2,3 +2,10 @@
   background-color: #e0e0e0;
   padding: 30px 50px 200px;
 }
+
+@media screen and (max-width: 768px) {
+  .footer {
+    background-color: #e0e0e0;
+    padding: 30px 30px 100px;
+  }
+}
