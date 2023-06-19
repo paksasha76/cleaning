@@ -3,3 +3,12 @@
   grid-template-columns: repeat(3, 400px);
   margin-left: 90px;
 }
+
+@media screen and (max-width: 687px) {
+  .price__grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 140px;
+  }
+}
