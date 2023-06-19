@@ -7,3 +7,10 @@
     bottom: 60px;
     cursor: pointer;
   }
+
+  @media screen and (max-width: 768px) {
+    .content__second-img {
+      position: static;
+      margin-top: 90px;
+    }
+  }
