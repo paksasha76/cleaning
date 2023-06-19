@@ -9,3 +9,9 @@
   bottom: 30px;
   left: 160px;
 }
+
+@media screen and (max-width: 768px) {
+  .form__img-third {
+    display: none;
+  }
+}

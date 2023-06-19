@@ -9,3 +9,9 @@
   left: 180px;
   bottom: 100px;
 }
+
+@media screen and (max-width: 768px) {
+  .form__img-second {
+    display: none;
+  }
+}
