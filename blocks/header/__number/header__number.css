@@ -1,3 +1,9 @@
 .header__number {
   display: flex;
 }
+
+@media screen and (min-width: 320px) and (max-width: 400px) {
+  .header__number {
+    flex-direction: column;
+  }
+}

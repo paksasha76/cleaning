@@ -4,3 +4,10 @@
   text-decoration: none;
   color: #000000;
 }
+
+@media screen and (min-width: 320px) and (max-width: 400px) {
+  .header__number-phone {
+    font-size: 10px;
+    margin-left: 0;
+  }
+}
